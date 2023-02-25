@@ -5,7 +5,17 @@ This module replaces **MSP_APIBoost**.
 ### Install procedure
 
 ```
-composer require msp/apienhancer
+composer.jsos <<<<
+...
+"repositories": {
+    "webtapienhancer": {
+        "type": "git",
+        "url": "https://github.com/web-T/m2-MSP_APIEnhancer.git"
+    }
+},
+...
+
+composer require webt/apienhancer
 php bin/magento setup:upgrade
 ```
 

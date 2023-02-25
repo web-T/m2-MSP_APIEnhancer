@@ -1,4 +1,5 @@
 <?php
+
 /**
  * MageSpecialist
  *
@@ -24,7 +25,7 @@ use MSP\APIEnhancer\Api\CacheManagementInterface;
 use Magento\Framework\Webapi\Rest\Response;
 use MSP\APIEnhancer\Api\CacheKeyProcessorInterface;
 use MSP\APIEnhancer\Api\TagInterface;
-use Zend\Http\Headers;
+use Laminas\Http\Headers;
 
 
 class CacheManagement implements CacheManagementInterface
